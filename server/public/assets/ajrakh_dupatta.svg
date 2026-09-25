@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <pattern id="ajrakhPattern" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect width="80" height="80" fill="#1E3A8A"/>
+      <circle cx="40" cy="40" r="30" fill="#991B1B"/>
+      <circle cx="40" cy="40" r="20" fill="#FFFDF7"/>
+      <path d="M 40,10 L 40,70 M 10,40 L 70,40" stroke="#1E3A8A" stroke-width="4"/>
+      <circle cx="40" cy="40" r="8" fill="#1E3A8A"/>
+      <circle cx="0" cy="0" r="12" fill="#D97706"/>
+      <circle cx="80" cy="0" r="12" fill="#D97706"/>
+      <circle cx="0" cy="80" r="12" fill="#D97706"/>
+      <circle cx="80" cy="80" r="12" fill="#D97706"/>
+    </pattern>
+  </defs>
+  <rect width="500" height="500" fill="#F8FAFC"/>
+  <!-- Folded Fabric Shadow -->
+  <rect x="70" y="50" width="360" height="400" rx="16" fill="url(#ajrakhPattern)" filter="drop-shadow(0 20px 25px rgba(30,58,138,0.4))"/>
+  <!-- Gold Zari Border -->
+  <rect x="80" y="60" width="340" height="380" fill="none" stroke="#D97706" stroke-width="8"/>
+  <rect x="90" y="70" width="320" height="360" fill="none" stroke="#FFFDF7" stroke-width="3"/>
+</svg>

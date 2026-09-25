@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF8F5"/>
+      <stop offset="100%" stop-color="#F5ECE5"/>
+    </linearGradient>
+    <linearGradient id="clay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E06D43"/>
+      <stop offset="50%" stop-color="#C85A32"/>
+      <stop offset="100%" stop-color="#9E3F1B"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE279"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg)"/>
+  <!-- Decorative Ring -->
+  <circle cx="250" cy="250" r="180" fill="none" stroke="#E5D6C9" stroke-width="2" stroke-dasharray="8 6"/>
+  <!-- Vase Body -->
+  <path d="M 210,120 L 290,120 L 280,160 Q 340,240 330,330 Q 320,400 250,400 Q 180,400 170,330 Q 160,240 220,160 Z" fill="url(#clay)" filter="drop-shadow(0 15px 25px rgba(158,63,27,0.3))"/>
+  <!-- Vase Lip -->
+  <ellipse cx="250" cy="120" rx="42" ry="12" fill="#E06D43" stroke="#9E3F1B" stroke-width="3"/>
+  <!-- Traditional Carved Motifs -->
+  <path d="M 180,310 Q 250,280 320,310" fill="none" stroke="url(#gold)" stroke-width="6"/>
+  <path d="M 175,330 Q 250,300 325,330" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="250" cy="240" r="16" fill="url(#gold)"/>
+  <circle cx="210" cy="250" r="10" fill="url(#gold)"/>
+  <circle cx="290" cy="250" r="10" fill="url(#gold)"/>
+  <path d="M 250,190 L 260,210 L 240,210 Z" fill="#FFFFFF"/>
+  <path d="M 210,200 L 220,218 L 200,218 Z" fill="#FFFFFF"/>
+  <path d="M 290,200 L 300,218 L 280,218 Z" fill="#FFFFFF"/>
+</svg>

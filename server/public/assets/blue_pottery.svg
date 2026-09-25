@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cobalt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="50%" stop-color="#0369A1"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="#F0F9FF"/>
+  <!-- Bowl Base Shadow -->
+  <ellipse cx="250" cy="380" rx="140" ry="30" fill="rgba(3,105,161,0.2)"/>
+  <!-- Bowl Body -->
+  <path d="M 100,180 Q 250,420 400,180 Q 250,140 100,180 Z" fill="url(#cobalt)" stroke="#0C4A6E" stroke-width="4"/>
+  <!-- Inner Rim Glaze -->
+  <ellipse cx="250" cy="180" rx="150" ry="24" fill="#E0F2FE" stroke="#0369A1" stroke-width="3"/>
+  <!-- Persian Floral Motifs -->
+  <circle cx="250" cy="270" r="30" fill="#FFFFFF"/>
+  <circle cx="250" cy="270" r="16" fill="#0284C7"/>
+  <circle cx="180" cy="240" r="20" fill="#FFFFFF"/>
+  <circle cx="180" cy="240" r="10" fill="#0284C7"/>
+  <circle cx="320" cy="240" r="20" fill="#FFFFFF"/>
+  <circle cx="320" cy="240" r="10" fill="#0284C7"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="jute" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="#F8FAFC"/>
+  <!-- Bag Handle -->
+  <path d="M 180,180 Q 250,60 320,180" fill="none" stroke="#78350F" stroke-width="18" stroke-linecap="round"/>
+  <!-- Bag Body -->
+  <path d="M 130,170 L 370,170 L 350,420 Q 250,450 150,420 Z" fill="url(#jute)" stroke="#78350F" stroke-width="4"/>
+  <!-- Woven Texture Pattern -->
+  <path d="M 130,220 L 367,220 M 135,270 L 362,270 M 140,320 L 358,320 M 145,370 L 353,370" stroke="#FEF3C7" stroke-width="3" stroke-dasharray="8 6"/>
+  <!-- Tribal Leather Patch -->
+  <rect x="210" y="250" width="80" height="60" rx="8" fill="#451A03"/>
+  <circle cx="250" cy="280" r="12" fill="#D97706"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_m" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#F7EEDD"/>
+    </linearGradient>
+    <linearGradient id="peacock" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg_m)"/>
+  <!-- Madhubani Double Border -->
+  <rect x="25" y="25" width="450" height="450" fill="none" stroke="#991B1B" stroke-width="8"/>
+  <rect x="40" y="40" width="420" height="420" fill="none" stroke="#15803D" stroke-width="4"/>
+  <!-- Border Geometry -->
+  <path d="M 25,25 L 475,475 M 475,25 L 25,475" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- Peacock Body -->
+  <path d="M 230,220 Q 180,260 210,340 Q 250,380 290,340 Q 320,260 270,220 Q 250,200 230,220 Z" fill="url(#peacock)" stroke="#0F172A" stroke-width="3"/>
+  <!-- Peacock Neck & Head -->
+  <path d="M 240,210 Q 220,160 245,130 Q 260,110 270,130 Q 260,160 260,210 Z" fill="#0284C7" stroke="#0F172A" stroke-width="3"/>
+  <circle cx="260" cy="130" r="14" fill="#0284C7" stroke="#0F172A" stroke-width="3"/>
+  <circle cx="265" cy="126" r="3" fill="#FFFFFF"/>
+  <!-- Crown Feathers -->
+  <path d="M 260,116 L 255,90 M 262,116 L 267,88 M 265,116 L 278,92" stroke="#D97706" stroke-width="3"/>
+  <circle cx="255" cy="90" r="4" fill="#DC2626"/>
+  <circle cx="267" cy="88" r="4" fill="#DC2626"/>
+  <circle cx="278" cy="92" r="4" fill="#DC2626"/>
+  <!-- Feather Fan -->
+  <path d="M 200,310 Q 110,220 120,140 Q 180,180 220,280 Z" fill="#15803D" stroke="#0F172A" stroke-width="3"/>
+  <path d="M 300,310 Q 390,220 380,140 Q 320,180 280,280 Z" fill="#15803D" stroke="#0F172A" stroke-width="3"/>
+  <!-- Lotus Flowers Base -->
+  <circle cx="250" cy="400" r="25" fill="#E11D48"/>
+  <path d="M 225,400 Q 250,350 275,400 Z" fill="#F43F5E"/>
+</svg>
